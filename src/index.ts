@@ -6,7 +6,7 @@
  * tool discovery and execution API. Enables LLMs to dynamically search for
  * and execute third-party tools via natural language.
  *
- * @module @qverisai/sdk
+ * @module @qverisai/mcp
  * @version 0.1.0
  *
  * @example
@@ -16,7 +16,7 @@
  *   "mcpServers": {
  *     "qveris": {
  *       "command": "npx",
- *       "args": ["@qverisai/sdk"],
+ *       "args": ["@qverisai/mcp"],
  *       "env": { "QVERIS_API_KEY": "your-api-key" }
  *     }
  *   }

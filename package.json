@@ -1,5 +1,5 @@
 {
-  "name": "@qverisai/sdk",
+  "name": "@qverisai/mcp",
   "version": "0.1.2",
   "description": "Official Qveris AI MCP Server SDK - Search and execute tools via natural language",
   "keywords": [
@@ -14,11 +14,11 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/qverisai/sdk"
+    "url": "https://github.com/qverisai/mcp"
   },
-  "homepage": "https://github.com/qverisai/sdk#readme",
+  "homepage": "https://github.com/qverisai/mcp#readme",
   "bugs": {
-    "url": "https://github.com/qverisai/sdk/issues"
+    "url": "https://github.com/qverisai/mcp/issues"
   },
   "type": "module",
   "main": "dist/index.js",

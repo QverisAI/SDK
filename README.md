@@ -1,8 +1,8 @@
-# @qverisai/sdk
+# @qverisai/mcp
 
 Official Qveris MCP Server SDK — Dynamically search and execute tools via natural language.
 
-[![npm version](https://img.shields.io/npm/v/@qverisai/sdk.svg)](https://www.npmjs.com/package/@qverisai/sdk)
+[![npm version](https://img.shields.io/npm/v/@qverisai/mcp.svg)](https://www.npmjs.com/package/@qverisai/mcp)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Overview
@@ -30,7 +30,7 @@ Add the Qveris server to your MCP client configuration:
   "mcpServers": {
     "qveris": {
       "command": "npx",
-      "args": ["@qverisai/sdk"],
+      "args": ["@qverisai/mcp"],
       "env": {
         "QVERIS_API_KEY": "your-api-key-here"
       }
@@ -46,7 +46,7 @@ Add the Qveris server to your MCP client configuration:
   "mcpServers": {
     "qveris": {
       "command": "npx",
-      "args": ["@qverisai/sdk"],
+      "args": ["@qverisai/mcp"],
       "env": {
         "QVERIS_API_KEY": "your-api-key-here"
       }
@@ -192,7 +192,7 @@ The `full_content_file_url` is valid for 120 minutes.
 
 ```bash
 # Clone the repository
-git clone https://github.com/qverisai/sdk.git
+git clone https://github.com/qverisai/mcp.git
 cd sdk
 
 # Install dependencies
@@ -211,6 +211,6 @@ MIT © [QverisAI](https://github.com/qverisai)
 
 ## Support
 
-- 🐛 [Issue Tracker](https://github.com/qverisai/sdk/issues)
+- 🐛 [Issue Tracker](https://github.com/qverisai/mcp/issues)
 - 💬 Contact: contact@qveris.ai
 

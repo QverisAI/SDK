@@ -1,13 +1,13 @@
 # @qverisai/mcp
 
-Official Qveris MCP Server SDK — Dynamically search and execute tools via natural language.
+Official QVeris MCP Server — Dynamically search and execute tools via natural language.
 
 [![npm version](https://img.shields.io/npm/v/@qverisai/mcp.svg)](https://www.npmjs.com/package/@qverisai/mcp)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Overview
 
-This SDK provides a [Model Context Protocol (MCP)](https://modelcontextprotocol.io/) server that enables LLMs to discover and execute third-party tools through the Qveris API. With three simple tools, your AI assistant can:
+This SDK provides a [Model Context Protocol (MCP)](https://modelcontextprotocol.io/) server that enables LLMs to discover and execute third-party tools through the QVeris API. With three simple tools, your AI assistant can:
 
 - **Search** for tools using natural language queries
 - **Get** detailed information about specific tools by their IDs
@@ -17,11 +17,11 @@ This SDK provides a [Model Context Protocol (MCP)](https://modelcontextprotocol.
 
 ### 1. Get Your API Key
 
-Visit [Qveris](https://qveris.ai) to get your API key.
+Visit [QVeris](https://qveris.ai) to get your API key.
 
 ### 2. Configure Your MCP Client
 
-Add the Qveris server to your MCP client configuration:
+Add the QVeris server to your MCP client configuration:
 
 **Claude Desktop** (`claude_desktop_config.json`):
 
@@ -181,12 +181,12 @@ The `full_content_file_url` is valid for 120 minutes.
 
 | Variable | Required | Description |
 |----------|----------|-------------|
-| `QVERIS_API_KEY` | ✓ | Your Qveris API key |
+| `QVERIS_API_KEY` | ✓ | Your QVeris API key |
 
 ## Requirements
 
 - Node.js 18.0.0 or higher
-- A valid Qveris API key
+- A valid QVeris API key
 
 ## Development
 
@@ -207,7 +207,7 @@ QVERIS_API_KEY=your-key node dist/index.js
 
 ## License
 
-MIT © [QverisAI](https://github.com/qverisai)
+MIT © [QVerisAI](https://github.com/qverisai)
 
 ## Support
 
